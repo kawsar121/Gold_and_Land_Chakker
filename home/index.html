@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Daisy Ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main class="flex justify-center">
+        <div class="mockup-phone">
+            <div class="camera"></div>
+            <div class="display">
+              <div class="artboard artboard-demo phone-1">
+                <!-- Navbar Start -->
+                <div class="form-control mt-10 bg-black text-yellow-500 p-3 rounded-md font-medium">
+                    <h1>Gold Rate Chakker</h1>
+                </div>
+                
+                <!-- Navbar End -->
+                <div class="divider"></div>
+                <!-- Sats Start -->
+                <div class="stats shadow">
+                    <div class="stat">
+                      <div class="stat-value text-xl"  id="stat">00.000</div>
+                      <div class="stat-desc ">Your Gold Rate</div>
+                    </div>
+                </div>
+                <!-- Sats End -->
+                 <!-- Form Start -->
+                 <form class="card-body">
+                    <div class="form-control">
+                        <label class="label">
+                          <span class="label-text">Gold Bori Price</span>
+                        </label>
+                        <input type="text" id="textPrice" placeholder="Kilo Price" class="input input-bordered" required />
+                      </div>
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text">Gold Weight</span>
+                      </label>
+                      <input type="text" id="text" placeholder="point" class="input input-bordered" required />
+                      <!-- Land Chakker -->
+                      <label class="label">
+                        <a href="/Menu/menu.html" class="label-text-alt link link-hover">Land Area Chakker?</a>
+                      </label>
+                    </div>
+                    <div class="form-control mt-6">
+                      <button id="btn" class="btn btn-primary">Solve</button>
+                    </div>
+                  </form>
+                </div>
+                 <!-- Form End -->
+              </div>
+            </div>
+          </div>
+    </main>
+
+    <!-- Js Add -->
+     <script src="/home/index.js"></script>
+</body>
+</html>
