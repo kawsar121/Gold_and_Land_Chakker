@@ -15,39 +15,46 @@
             <div class="display">
               <div class="artboard artboard-demo phone-1">
                 <!-- Navbar Start -->
-                <div class="form-control mt-10 bg-black text-yellow-500 p-3 rounded-md font-medium">
-                    <h1>Gold Rate Chakker</h1>
+                <div class="form-control mt-64 bg-black text-yellow-500 p-3 rounded-md font-medium">
+                  <div class="stat-value text-xl"  id="stat">00.000</div>
+                  
                 </div>
                 
                 <!-- Navbar End -->
-                <div class="divider"></div>
                 <!-- Sats Start -->
-                <div class="stats shadow">
-                    <div class="stat">
-                      <div class="stat-value text-xl"  id="stat">00.000</div>
-                      <div class="stat-desc ">Your Gold Rate</div>
-                    </div>
-                </div>
+                
                 <!-- Sats End -->
                  <!-- Form Start -->
                  <form class="card-body">
                     <div class="form-control">
                         <label class="label">
-                          <span class="label-text">Gold Bori Price</span>
+                          <span class="label-text">Top Position Size</span>
                         </label>
-                        <input type="text" id="textPrice" placeholder="Kilo Price" class="input input-bordered" required />
+                        <input type="text" id="top" placeholder="Top Size" class="input input-bordered" required />
+                      </div>
+                      <div class="form-control">
+                        <label class="label">
+                          <span class="label-text">Bottom Position Size</span>
+                        </label>
+                        <input type="text" id="bottom" placeholder="Botoom Size" class="input input-bordered" required />
+                      </div>
+                      <div class="form-control">
+                        <label class="label">
+                          <span class="label-text">Left Position Size</span>
+                        </label>
+                        <input type="text" id="left" placeholder="Left Size" class="input input-bordered" required />
                       </div>
                     <div class="form-control">
                       <label class="label">
-                        <span class="label-text">Gold Weight</span>
+                        <span class="label-text">Right Position Size</span>
                       </label>
-                      <input type="text" id="text" placeholder="point" class="input input-bordered" required />
+                      <input type="text" id="right" placeholder="Rigt Size" class="input input-bordered" required />
                       <!-- Land Chakker -->
                       <label class="label">
-                        <a href="/Menu/menu.html" class="label-text-alt link link-hover">Land Area Chakker?</a>
+                        <a href="/index.html" class="label-text-alt link link-hover">Gold Rate Chakker?</a>
                       </label>
                     </div>
-                    <div class="form-control mt-6">
+                    <div class="form-control mb-52">
                       <button id="btn" class="btn btn-primary">Solve</button>
                     </div>
                   </form>
@@ -59,6 +66,6 @@
     </main>
 
     <!-- Js Add -->
-     <script src="/home/index.js"></script>
+     <script src="/menu.js"></script>
 </body>
 </html>
